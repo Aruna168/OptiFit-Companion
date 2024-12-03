@@ -301,7 +301,7 @@ def daily_data_visualization():
 
 # Plot Steps Gauge Chart with Blue and Shiny White Design
 def plot_steps_gauge(daily_data):
-    goal_steps = 10000  # Steps goal
+    goal_steps = 20000  # Steps goal
     current_steps = daily_data['steps'].iloc[0]
 
     # Create the Gauge Chart for steps with blue and shiny white futuristic design
